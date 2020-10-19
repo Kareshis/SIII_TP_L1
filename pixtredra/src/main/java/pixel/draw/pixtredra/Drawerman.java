@@ -44,9 +44,9 @@ public class Drawerman extends Thread
         	guy.start();
         }
         
-        float c1 = (float)(col.getRed() * 0.975) / 255;
-        float c2 = (float)(col.getGreen() * 0.975) / 255;
-        float c3 = (float)(col.getBlue() * 0.975) / 255;
+        float c1 = (float)(col.getRed() * 0.9875) / 255;
+        float c2 = (float)(col.getGreen() * 0.9875) / 255;
+        float c3 = (float)(col.getBlue() * 0.9875) / 255;
         this.col = new Color(c1, c2, c3);
         
         int dir = Math.round((float)Math.random() * 4);

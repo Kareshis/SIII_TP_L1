@@ -25,7 +25,7 @@ public class Starter extends Frame
 	private void prepare_GUI()
 	{
 		setTitle("Starter");
-		setBounds(1000, 100, 250, 250);
+		setBounds(1000, 100, 280, 280);
 		setLayout(new FlowLayout(FlowLayout.LEFT));
 		
 		setVisible(true);
