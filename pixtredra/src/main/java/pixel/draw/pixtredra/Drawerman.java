@@ -7,7 +7,7 @@ public class Drawerman extends Thread
 	public int x, y, w, main_dir, last_dir, lifespan, speed;
 	public Color col;
     public Field ptdwin;
-    private float spread;
+    private float spread; // komentarz
 	
 	public Drawerman(int x, int y, int w, int lifespan, int speed, Color col, Field ptdwin)
 	{
